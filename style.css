@@ -69,6 +69,13 @@ h1 {
     color: hsl(0, 0%, 7%);
 }
 
+h1:active {
+    color: hsl(47, 88%, 63%);
+}
+
+h1:hover {
+    color: hsl(47, 88%, 63%);
+}
 #content {
     color: hsl(0, 0%, 42%);
     font-size: 16px;
@@ -82,7 +89,7 @@ h1 {
     font-weight: 800;
     color: hsl(0, 0%, 7%);
     display: flex;
-    flex-direction: row;
+    flex-direction: flex;
     align-items: center;
     gap: 12px;
     margin-top: 15px;
